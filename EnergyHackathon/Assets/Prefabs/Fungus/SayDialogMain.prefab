@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 787247759405105377}
   - component: {fileID: 787247759405105406}
   - component: {fileID: 787247759405105407}
+  - component: {fileID: 5619898745164531571}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -118,8 +119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -750.0001, y: 0}
-  m_SizeDelta: {x: 1500, y: 335}
+  m_AnchoredPosition: {x: -854.2, y: 12}
+  m_SizeDelta: {x: 1708.4, y: 335}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &787247759405105376
 CanvasRenderer:
@@ -201,6 +202,21 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &5619898745164531571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787247759405105404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &787247759590288037
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +281,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!114 &787247759590288045
 MonoBehaviour:
@@ -531,8 +547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -200.8, y: 14.130005}
-  m_SizeDelta: {x: -468.7, y: -63}
+  m_AnchoredPosition: {x: -233.33002, y: 0.1000061}
+  m_SizeDelta: {x: -533.8, y: -34.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &787247759911149472
 CanvasRenderer:
@@ -646,7 +662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -170.4, y: 168.2}
+  m_AnchoredPosition: {x: -250.1001, y: 167.5}
   m_SizeDelta: {x: 500.2, y: 516.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &787247759933719471

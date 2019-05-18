@@ -86,6 +86,7 @@ public class CrossSectionUI : MonoBehaviour {
     }
     public void OpenApartment (ApartmentButton button, bool enablePanel = true) {
         infopanel.SetActive (enablePanel);
+        infopanel.GetComponent<Animator>().SetTrigger("open");
         selectedApartment = button;
         if (enablePanel) {
             Fungus.FungusManager.Instance.EventDispatcher.Raise (new Eventhandler_OpenApartment.Custom_EventHandlerEvent () { targetButton = selectedApartment });

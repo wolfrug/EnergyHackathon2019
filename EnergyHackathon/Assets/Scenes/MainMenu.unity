@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1372639619}
 --- !u!4 &1358289769
 Transform:
   m_ObjectHideFlags: 1
@@ -447,7 +447,6 @@ GameObject:
   - component: {fileID: 1372639640}
   - component: {fileID: 1372639638}
   - component: {fileID: 1372639637}
-  - component: {fileID: 1372639636}
   - component: {fileID: 1372639643}
   - component: {fileID: 1372639639}
   - component: {fileID: 1372639635}
@@ -485,7 +484,6 @@ GameObject:
   - component: {fileID: 1372639646}
   - component: {fileID: 1372639673}
   - component: {fileID: 1372639675}
-  - component: {fileID: 1372639674}
   - component: {fileID: 1372639679}
   - component: {fileID: 1372639678}
   - component: {fileID: 1372639677}
@@ -521,6 +519,9 @@ GameObject:
   - component: {fileID: 1372639708}
   - component: {fileID: 1372639707}
   - component: {fileID: 1372639710}
+  - component: {fileID: 1372639636}
+  - component: {fileID: 1372639711}
+  - component: {fileID: 1372639674}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -541,7 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -22.731586, y: 34.189774}
+  scrollPos: {x: -18.025707, y: -8.163161}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -982,16 +983,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 116
   indentLevel: 0
-  storyText: "In the game Gaia House, you are going to have to do some negotiating
-    to keep your building functional and your neighbours happy.\n\nIn the end you
-    have to do a good job as a resident, or you might lose your right to live there.
-    So you need to learn efficient use of energy, and how to collaborate with others
-    to achieve it.\r"
+  storyText: Except the Gaia Housing Cooperative was more than just a regular apartment
+    building. It was supposed to be fully 'off grid', which meant it should - on average
+    - supply its own power throughout the month.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1704497517}
+  portrait: {fileID: 21300000, guid: 2918e2642e3e51d43ad94b2796e09ea2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1015,13 +1014,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: 'To your horror, this month''s lottery brought up {i}your{/i} name. After
-    a terrifyingly short tutorial, you were left in charge of monitoring the energy
-    use of every resident in the apartment complex, intervening if necessary.
+  storyText: 'This month''s lottery brought up {i}your{/i} name. Suddenly, it''s on
+    your shoulders to make sure everyone in the building follows regulations - or
+    risk the wrath of A.U.R.A.
 
 
-    Unfortunately, it''s mid-July, temperatures are at an all-time high, and energy
-    use seems to be spiking catastrophically.'
+    It''s mid-July, temperatures are at an all-time high, and energy use seems to
+    be spiking catastrophically.'
   description: 
   character: {fileID: 1704497517}
   portrait: {fileID: 21300000, guid: 2918e2642e3e51d43ad94b2796e09ea2, type: 3}
@@ -1041,7 +1040,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372639618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -1114,15 +1113,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'Your name is Taru, and you are 18 years old. Your birthday is the 26th
-    of March, 2017. You don''t consider yourself anything special: you like taking
-    photos, spending time in nature, and knitting.
+  storyText: 'A few months after graduating, you were accepted at your first choice
+    university in Turku, and moved away from home to live by yourself in the big city.
 
 
-    After you were accepted at university, you moved away from home for the first
-    time - to Turku. As luck should have it, your uncle owned an apartment that he
-    let to you for an affordable sum: provided, of course, you could fulfill all your
-    obligations as a tenant.'
+    Your uncle owns an apartment in the city that he lets to you - with the provision
+    you fulfill all your obligations as a tenant.'
   description: 
   character: {fileID: 1704497517}
   portrait: {fileID: 21300000, guid: 2918e2642e3e51d43ad94b2796e09ea2, type: 3}
@@ -1190,6 +1186,7 @@ MonoBehaviour:
   - {fileID: 1372639673}
   - {fileID: 1372639671}
   - {fileID: 1372639638}
+  - {fileID: 1372639636}
   - {fileID: 1372639669}
   - {fileID: 1372639674}
   - {fileID: 1372639647}
@@ -1198,7 +1195,6 @@ MonoBehaviour:
   - {fileID: 1372639637}
   - {fileID: 1372639644}
   - {fileID: 1372639668}
-  - {fileID: 1372639636}
   - {fileID: 1372639667}
   - {fileID: 1372639672}
   - {fileID: 1372639708}
@@ -1271,8 +1267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1175.2062
-    y: 133.86597
+    x: 1165.7941
+    y: 136.2189
     width: 185.2941
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1287,6 +1283,7 @@ MonoBehaviour:
   - {fileID: 1372639691}
   - {fileID: 1372639652}
   - {fileID: 1372639653}
+  - {fileID: 1372639711}
   - {fileID: 1372639690}
   - {fileID: 1372639666}
   - {fileID: 1372639649}
@@ -1935,21 +1932,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372639618}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 61
+  itemId: 118
   indentLevel: 0
-  storyText: 'The AI in charge of the grid does {i}not[{/i} like deficits.
-
-
-    You''ve heard more than one horror story about what happened to GESes who failed
-    to keep energy use in check, and AURA happy!'
+  storyText: Apparently. A.U.R.A. did {i}not{/i} like grid deficits.
   description: 
   character: {fileID: 1704497517}
-  portrait: {fileID: 21300000, guid: f8387e9170c36934aaf82473925e86d3, type: 3}
+  portrait: {fileID: 21300000, guid: 2918e2642e3e51d43ad94b2796e09ea2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1973,7 +1966,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: Soon, you were the newest resident of the famous...
+  storyText: 'No big deal, right? Regular things: feeding the fish, raking the leaves
+    into the compost, cleaning the solar panels...'
   description: 
   character: {fileID: 1704497517}
   portrait: {fileID: 21300000, guid: 2918e2642e3e51d43ad94b2796e09ea2, type: 3}
@@ -3261,8 +3255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1419.2064
-    y: 129.21643
+    x: 1395.6761
+    y: 136.27524
     width: 166.47057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3434,6 +3428,60 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &1372639711
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372639618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+BooleanEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+IntegerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+FloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+StringEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1574066195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,6 +4219,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 787247759911149500, guid: de15c3b807a92f94a9e9232f589b289b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -233.33002
+      objectReference: {fileID: 0}
+    - target: {fileID: 787247759911149500, guid: de15c3b807a92f94a9e9232f589b289b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.1000061
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de15c3b807a92f94a9e9232f589b289b, type: 3}
 --- !u!1001 &3623704861157665337
@@ -4376,7 +4434,7 @@ PrefabInstance:
     - target: {fileID: 6528097429687474008, guid: 7fcac3eec6c33d744905e549e5fc7206,
         type: 3}
       propertyPath: m_Name
-      value: newGame
+      value: prefab_Button
       objectReference: {fileID: 0}
     - target: {fileID: 6528097429687474009, guid: 7fcac3eec6c33d744905e549e5fc7206,
         type: 3}
@@ -4486,9 +4544,7 @@ PrefabInstance:
     - target: {fileID: 6528097429968489257, guid: 7fcac3eec6c33d744905e549e5fc7206,
         type: 3}
       propertyPath: m_Text
-      value: 'New Game
-
-'
+      value: Start
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fcac3eec6c33d744905e549e5fc7206, type: 3}

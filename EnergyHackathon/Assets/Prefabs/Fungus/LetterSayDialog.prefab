@@ -445,7 +445,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &1714590075139255006
 MonoBehaviour:
@@ -1210,8 +1210,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 391404637256425544}
   m_HandleRect: {fileID: 5567951460148892736}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999999
+  m_Value: 0
+  m_Size: 0.9999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1586,7 +1586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.000005951053}
+  m_AnchoredPosition: {x: 0.000062508676, y: -0.000034325196}
   m_SizeDelta: {x: 625, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3291952096489336779
